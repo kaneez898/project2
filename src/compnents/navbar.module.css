@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+.container{
+    padding: 0 160px;
+}
+.wrapper{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    gap: 21%;
+}
+
+.logo{
+    color:#6A0DAD ;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Poppins', 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+
+.navbut{
+    background-color: #6A0DAD;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
