@@ -1,0 +1,107 @@
+.teamSection {
+  padding: 0 210px;
+  margin-top: 150px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.teamHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.leftHeader {
+  flex: 2;
+}
+
+.rightHeader {
+  flex: 1;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111D15;
+}
+
+.subHeading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111D15;
+}
+
+.description {
+  color: #666666;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.divider {
+  border-bottom: 1px solid #ddd;
+  margin: 1.5rem 0;
+}
+
+.teamCards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.cardImg {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  align-content: left;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111D15;
+  text-align: left;
+}
+
+.stars {
+  color: #FF9800;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+.star {
+  font-size: 1.5rem;
+}
+
+.cardText {
+  font-size: 0.9rem;
+  color: #666666;
+  margin: 0.5rem 0 1rem 0;
+  text-align: left;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  /* justify-content: center; */
+  align-items: left;
+}
+
+.socialIcons a {
+  color: #000;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.socialIcons a:hover {
+  color: #22c55e; 
+}

@@ -1,0 +1,126 @@
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+  gap: 60px;
+  padding: 0 210px;
+  margin-top: 150px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.leftContact {
+  flex: 1;
+}
+
+.findHeading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contactCard {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.iconCircle {
+  width: 40px;
+  height: 40px;
+  background: #36b864;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  background: #36B864; /* green circle background */
+  color: #FFFFFF;      /* icon color white */
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconCircle img {
+  width: 20px;
+  height: 20px;
+}
+
+.contactCard h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contactCard p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Right Form Section */
+.rightContact {
+  flex: 1;
+}
+
+.contactInfo {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.formHeading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.formText {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputField {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.textArea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  min-height: 120px;
+}
+
+.sendBtn {
+  background: #36b864;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sendBtn:hover {
+  background: #2fa056;
+}

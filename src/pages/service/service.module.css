@@ -1,0 +1,140 @@
+.serviceHead {
+  display: flex;
+ padding: 0 210px;
+  gap: 20%;
+  margin: 40px 0;
+  align-items: flex-start;
+  margin-top: 100px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.serviceHeading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+  /* padding-left: 100px; */
+}
+
+.rightServiceSec {
+  max-width: 400px;
+  /* padding-right: 90px; */
+}
+
+.rightServiceHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.rightServiceText {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.hline {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 180px;
+  padding: 0 180px;;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 0 180px;
+  gap: 40px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.serviceCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+  max-width: 350px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.serviceCard h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 15px 20px 10px;
+  color: #111D15;
+}
+
+.serviceCard p {
+  font-size: 0.9rem;
+  color: #666666;
+  margin: 0 20px 20px;
+  line-height: 1.5;
+}
+
+/* .bookBtn {
+  margin: 0 60% 20px 0px;
+  padding: 10px;
+  border: 1px solid #666666;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 6px;
+  color: #111D15;
+  text-align: center;
+}
+
+.bookBtn:hover {
+  background: #f4f4f4;
+}
+
+.greenBtn {
+  background: #36B864;
+  color: #FFFFFF;
+  border: none;
+}
+
+.greenBtn:hover {
+  background: #2fa056;
+} */
+
+
+.bookBtn {
+  margin: 0 60% 20px 0px;
+  padding: 10px;
+  border: 1px solid #666666;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 6px;
+  color: #111D15;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover sabhi buttons ke liye */
+.bookBtn:hover {
+  background: #36B864;
+  color: #fff;
+  border: 1px solid #36B864;
+}
+
+/* Sirf active (2nd button) */
+.activeBtn {
+  background: #36B864;
+  color: #fff;
+  border: 1px solid #36B864;
+}
+

@@ -1,0 +1,85 @@
+.footer {
+  background-color: #111D15;
+  color: #FFFFFF;
+  padding: 50px 80px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.footerSection h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footerSection p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 10px;
+}
+
+.footerSection ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footerSection ul li a:hover {
+  color: #36B864;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.newsletterBox {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletterBox input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.newsletterBox button {
+  background-color: #36B864;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletterBox button:hover {
+  background-color: #2da154;
+}
+
+.footerBottom {
+  border-top: 1px solid #444;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}

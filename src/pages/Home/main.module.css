@@ -1,0 +1,79 @@
+.wrapper{
+    background-color: white;
+}
+
+
+.mainimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mainContent {
+  position: absolute;
+  top: 12rem;
+  left: 0px;
+  width: 40%;
+  height: 100%;
+  padding: 104px 695px 104px 135px;
+  gap: 40px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.heroText {
+  color: #111D15;
+  font-family: 'Be Vietnam Pro', sans-serif;      
+  font-size: 1.4rem;
+  /* line-height: 120%;        */      
+  padding: 4px 8px;
+  /* display: inline-block; */
+  /* font-weight: bold; */
+   margin-top: 4px;
+  
+}
+.heroTextHeading{
+  font-size: 3.5rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin-top: 6px;
+}
+.heroTextDetail{
+  font-size: 1.2rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin-top: 20px;
+}
+
+.btns{
+  display: flex;
+  position: absolute;
+  top: 35rem;
+  left: 0px;
+  padding: 104px 695px 104px 135px;
+ 
+  gap: 20px;
+ 
+}
+.GetStartBtn{
+  /* border: 2px solid black; */
+  background-color: #36B864;
+  color: #fff;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.ViewAllBtns{
+  border: 2px solid black;
+
+  background-color: transparent;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}

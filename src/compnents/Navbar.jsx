@@ -8,14 +8,14 @@ function Navbar(){
              
             <div className={styled.navbar}>
                 <img src="/images/Logo.png" />
-            {/* <h2 className={styled.logo}></h2> */}
                 <ul className={styled.list}>
                     <li>
-                        <a >Home</a>
+                        <a className={styled.activeNavbar}>Home   </a>
                     </li>
                     <li>
                         <a >About us</a>
-                    </li><li>
+                    </li>
+                    <li>
                         <a >Service</a>
                     </li>
                     <li>
@@ -23,7 +23,7 @@ function Navbar(){
                     </li>
                     
                     </ul>
-                    <button className={styled.navbut}>REQUEST A PROPOSAL</button>
+                    <button className={styled.navbut}>Get a quote</button>
        
 
 

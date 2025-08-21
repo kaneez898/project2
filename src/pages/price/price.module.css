@@ -1,0 +1,189 @@
+
+.pricingSection {
+  position: relative;
+  background-color: #f9f9f9;
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 0 2rem 4rem 2rem;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.pricingSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 570px; 
+  background-image: url("/images/Background.png");
+  background-size: cover;
+  background-position: center top;
+  z-index: 0;
+}
+
+.contentHeading {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 3rem;
+  color: #FFFFFF;
+ 
+}
+
+.smallHeading {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+   margin-top: 50px;
+}
+
+.mainHeading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.toggleBtns {
+  display: inline-flex;           
+  justify-content: center;
+  align-items: center;
+  padding: 6px;                   
+  background: #F4F5F8;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 2rem auto 3rem auto;    
+  position: relative;
+  z-index: 5;
+}
+
+.toggleBtn {
+  padding: 0.6rem 1.8rem;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #555;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50px;
+  gap: 30px;
+  background-color: #FFFFFF;
+}
+
+
+.toggleBtn:hover {
+  background-color: #f3f3f3;
+}
+
+.active {
+  background-color: #36B864;
+  color: #FFFFFF !important;
+  border-radius: 50px;
+}
+
+
+.pricingCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 0; 
+}
+
+
+.card {
+  background: white;
+  padding: 2rem 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  max-width: 320px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.packageName {
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.priceBox {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin: 0.5rem 0 1.5rem 0;
+  background-color: #36B864;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 12px 0px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.period {
+  font-size: 0.9rem;
+  /* color: #555; */
+}
+
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.card li {
+  margin-bottom: 0.6rem;
+}
+
+
+.cardBtn,
+.cardBtnGreen {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.cardBtn {
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.cardBtn:hover {
+  background-color: #FFFFFF;
+}
+
+.cardBtnGreen {
+  background-color: #36B864;
+  color: #FFFFFF;
+  border: none;
+}
+
+.cardBtnGreen:hover {
+  background-color: #16a34a;
+}
